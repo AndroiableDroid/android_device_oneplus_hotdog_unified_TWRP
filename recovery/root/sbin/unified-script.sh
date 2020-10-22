@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/sbin/sh
 # This script is needed to automatically set device props.
 
 
