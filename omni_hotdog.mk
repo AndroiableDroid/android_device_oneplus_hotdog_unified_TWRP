@@ -20,7 +20,7 @@ PRODUCT_RELEASE_NAME := hotdog
 $(call inherit-product, build/target/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/oneplus/hotdog/device.mk)
